@@ -1,4 +1,5 @@
-# InformationGathering
+# EX-2.InformationGathering
+## Date:20/02/2024
 Information Gathering Techiques
 
 # To perform information gathering techniques
@@ -22,7 +23,61 @@ Open terminal/browser and try execute necessary commands/use url to perform info
 
 
 ## OUTPUT:
-
-
+## whois
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/bfcf874b-485f-4d3d-9039-6201ccfe5b08)
+## ip2location
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/74f45ba9-b604-4445-b5c5-2ed6be140e1a)
+## web archive
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/0b927418-4984-4076-a000-7f424446ffb2)
+# Webserver Fingerprinting:
+## netcat:
+```
+nc 172.17.52.118 80
+```
+## Output
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/f38b67d8-2fc1-439e-8bcb-35ee5fb5c409)
+## Nmap:
+```
+nmap -p 21 -sV --script=banner ftp.vim.org
+```
+## Output
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/931ac58b-359d-409e-8ef3-206668541bcf)
+## Whatweb:
+```
+whatweb infosys.com
+```
+```
+whatweb zoho.com
+```
+```
+whatweb -v -a 3 172.17.52.201
+```
+## Output
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/772a0c0f-0c27-45d9-b8f1-047bd213d9e0)
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/cde26b77-a90c-4973-bbe9-0a0e086dc1d4)
+## httprint:
+```
+httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
+```
+## Output
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/8e202451-dd97-461d-86d2-7ecd4c45e86b)
+# Tracing the Location:
+## TCP Traceroute:
+```
+sudo traceroute -T www.saveetha.ac.in
+```
+## Output
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/4ac5d4e3-51f7-46ee-91f5-b4e250c904aa)
+## UDP Traceroute:
+```
+sudo traceroute -U www.saveetha.ac.in
+```
+## Output
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/0fa4acda-02fc-46f7-927e-63cb11bc0cd1)
+## ICMP Traceroute:
+```
+sudo traceroute  www.saveetha.ac.in
+```
+![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/5e55b5d3-0de9-45c6-a8f5-f9bcd99147a1)
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
