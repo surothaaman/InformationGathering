@@ -1,5 +1,6 @@
 # EX-2.InformationGathering
-## Date:20/02/2024
+## Date:
+
 Information Gathering Techiques
 
 # To perform information gathering techniques
