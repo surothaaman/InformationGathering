@@ -24,11 +24,11 @@ Open terminal/browser and try execute necessary commands/use url to perform info
 
 ## OUTPUT:
 ## whois
-![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/bfcf874b-485f-4d3d-9039-6201ccfe5b08)
+![Screenshot 2024-09-16 133153](https://github.com/user-attachments/assets/a6c7b0bd-dda0-4842-9104-b7c06055ae2d)
 ## ip2location
 ![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/74f45ba9-b604-4445-b5c5-2ed6be140e1a)
 ## web archive
-![image](https://github.com/Darkwebnew/InformationGathering/assets/143114486/0b927418-4984-4076-a000-7f424446ffb2)
+![Screenshot 2024-09-16 135104](https://github.com/user-attachments/assets/2a1343f7-1f80-437e-a1c8-6d29bb019881)
 # Webserver Fingerprinting:
 ## netcat:
 ```
